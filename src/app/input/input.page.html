@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>input</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item>
+        <ion-label position="floating">FirstName LastName</ion-label>
+        <ion-input [(ngModel)]="name"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label position="floating">Age</ion-label>
+        <ion-input [(ngModel)]="age"></ion-input>
+    </ion-item>
+
+    <ion-card>
+        <ion-card-content>
+            Name:
+            <p>{{ name ? name : '-' }}</p>
+            Age:
+            <p>{{ age ? age : '-' }}</p>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

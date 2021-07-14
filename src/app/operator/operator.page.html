@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>operator</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item>
+        <ion-label position="floating">Input Number</ion-label>
+        <ion-input [(ngModel)]="num1" type='number'></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label position="floating">Input Number</ion-label>
+        <ion-input [(ngModel)]="num2" type='number'></ion-input>
+    </ion-item>
+
+    <ion-card>
+        <ion-card-content>
+            Summary result:
+            <p>{{ sum }}</p>
+            Minus result:
+            <p>{{ minus }}</p>
+            Multiply result:
+            <p>{{ multiply }}</p>
+            Divide result:
+            <p>{{ divide }}</p>
+            Modular result:
+            <p>{{ modular }}</p>
+            <ion-button color="primary" (click)="result()">แสดงผลลัพธ์</ion-button>
+            <ion-button color="primary" (click)="gotoresult()">แสดงผลลัพธ์ในหน้าถัดไป</ion-button>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
