@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { FolderPageRoutingModule } from './folder-routing.module';
+import { SquarePageRoutingModule } from './square-routing.module';
 
-import { FolderPage } from './folder.page';
+import { SquarePage } from './square.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    FolderPageRoutingModule
+    SquarePageRoutingModule
   ],
-  declarations: [FolderPage]
+  declarations: [SquarePage]
 })
-export class FolderPageModule {}
+export class SquarePageModule {}
