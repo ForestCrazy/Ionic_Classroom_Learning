@@ -7,5 +7,5 @@
 ```bash
 cd Ionic_Classroom_Learning
 npm i
-ionic
+ionic serve
 ```
