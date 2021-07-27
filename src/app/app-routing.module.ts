@@ -71,6 +71,14 @@ const routes: Routes = [
     path: 'contrlif',
     loadChildren: () => import('./contrlif/contrlif.module').then( m => m.ContrlifPageModule)
   },
+  {
+    path: 'controlifelse',
+    loadChildren: () => import('./controlifelse/controlifelse.module').then( m => m.ControlifelsePageModule)
+  },
+  {
+    path: 'contrlifelseifelse',
+    loadChildren: () => import('./contrlifelseifelse/contrlifelseifelse.module').then( m => m.ContrlifelseifelsePageModule)
+  },
 ];
 
 @NgModule({
