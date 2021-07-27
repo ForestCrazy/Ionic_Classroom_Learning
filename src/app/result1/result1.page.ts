@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Storage } from '@ionic/storage';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-result1',
@@ -11,7 +12,7 @@ export class Result1Page implements OnInit {
   number1: number;
   number2: number;
 
-  constructor(private store: Storage) { }
+  constructor(private store: Storage, private nav: NavController) { }
 
   ngOnInit() {
     this.store.create();
@@ -21,6 +22,10 @@ export class Result1Page implements OnInit {
     this.store.get('num2').then((n2) => {
       this.number2 = n2;
     });
+  }
+
+  gotoBack() {
+    this.nav.navigateBack('/ex01');
   }
 
 }
