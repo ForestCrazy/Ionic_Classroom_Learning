@@ -1,9 +1,18 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>contrlif</ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-title>contrlif</ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+    <ion-item>
+        <ion-label position="floating">Number: </ion-label>
+        <ion-input [(ngModel)]="num1"></ion-input>
+    </ion-item>
+    <ion-card>
+        <ion-card-content>
+            {{ show }}
+        </ion-card-content>
+    </ion-card>
+    <ion-button color='primary' expand='full' (click)='gotoResult()'>operate</ion-button>
 </ion-content>
