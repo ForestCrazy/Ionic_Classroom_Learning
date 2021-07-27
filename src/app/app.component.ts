@@ -12,6 +12,7 @@ export class AppComponent {
     { title: 'Operator', url: '/operator', icon: 'archive' },
     { title: 'ControlIF', url: '/contrlif', icon: 'archive' },
     { title: 'ControlIFELSE', url: '/controlifelse', icon: 'archive' },
+    { title: 'ControlIFELSEIFELSE', url: '/contrlifelseifelse', icon: 'archive' },
     { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
   ];
