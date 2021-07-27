@@ -67,6 +67,10 @@ const routes: Routes = [
     loadChildren: () =>
       import('./result2/result2.module').then((m) => m.Result2PageModule),
   },
+  {
+    path: 'contrlif',
+    loadChildren: () => import('./contrlif/contrlif.module').then( m => m.ContrlifPageModule)
+  },
 ];
 
 @NgModule({

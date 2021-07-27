@@ -10,6 +10,7 @@ export class AppComponent {
     { title: 'LinkPage', url: '/linkpage', icon: 'paper-plane' },
     { title: 'input', url: '/input', icon: 'heart' },
     { title: 'Operator', url: '/operator', icon: 'archive' },
+    { title: 'ControlIF', url: '/contrlif', icon: 'archive' },
     { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
   ];
