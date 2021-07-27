@@ -14,7 +14,7 @@ export class ContrlifPage implements OnInit {
   ngOnInit() {}
 
   gotoResult() {
-    if (this.num1 > 50) {
+    if (this.num1 >= 50) {
       this.show = 'pass';
     }
     if (this.num1 < 50) {
