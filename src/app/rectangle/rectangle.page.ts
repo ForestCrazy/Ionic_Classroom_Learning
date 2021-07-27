@@ -21,6 +21,7 @@ export class RectanglePage implements OnInit {
   gotoResult() {
     this.store.create();
     this.store.set('num1', this.num1);
+    this.store.set('num2', this.num2);
     this.route.navigateByUrl('/result1');
   }
 
