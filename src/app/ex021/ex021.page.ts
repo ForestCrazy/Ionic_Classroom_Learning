@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Ex021Page implements OnInit {
 
+  str: string;
+  num1: number;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  divide() {
+    if (this.num1 % 5 == 0) {
+      this.str = this.num1 + ' is divisible by 5. ';
+    } else {
+      this.str = this.num1 + ' is not divisible by 5. ';
+    }
   }
 
 }
