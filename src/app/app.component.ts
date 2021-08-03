@@ -16,6 +16,6 @@ export class AppComponent {
     { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
   ];
-  public labels = [{ title: 'Ex01', url: '/ex01', icon: 'mail' },];
+  public labels = [{ title: 'Ex01', url: '/ex01', icon: 'mail' },{ title: 'Ex02', url: '/ex02', icon: 'mail' }];
   constructor() {}
 }

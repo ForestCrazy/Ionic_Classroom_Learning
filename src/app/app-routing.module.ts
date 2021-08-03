@@ -79,6 +79,18 @@ const routes: Routes = [
     path: 'contrlifelseifelse',
     loadChildren: () => import('./contrlifelseifelse/contrlifelseifelse.module').then( m => m.ContrlifelseifelsePageModule)
   },
+  {
+    path: 'ex02',
+    loadChildren: () => import('./ex02/ex02.module').then( m => m.Ex02PageModule)
+  },
+  {
+    path: 'ex021',
+    loadChildren: () => import('./ex021/ex021.module').then( m => m.Ex021PageModule)
+  },
+  {
+    path: 'ex022',
+    loadChildren: () => import('./ex022/ex022.module').then( m => m.Ex022PageModule)
+  },
 ];
 
 @NgModule({
